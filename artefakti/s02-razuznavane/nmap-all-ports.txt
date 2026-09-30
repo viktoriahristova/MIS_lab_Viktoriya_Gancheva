@@ -1,0 +1,8 @@
+# Nmap 7.95 scan initiated Wed Sep 30 04:40:31 2026 as: nmap -p- -oN /home/student/artefakti/s02-razuznavane/nmap-all-ports.txt 10.60.0.10
+Nmap scan report for 10.60.0.10
+Host is up (0.00071s latency).
+Not shown: 65534 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Wed Sep 30 04:40:37 2026 -- 1 IP address (1 host up) scanned in 6.08 seconds
