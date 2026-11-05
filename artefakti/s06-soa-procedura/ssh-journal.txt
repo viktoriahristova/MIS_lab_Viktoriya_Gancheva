@@ -1,0 +1,30 @@
+Nov 04 22:13:18 srv sshd[3284]: Timeout before authentication for connection from 10.60.0.1 to 10.60.0.10, pid = 4076
+Nov 04 22:17:57 srv sshd-session[4085]: Connection closed by authenticating user student 10.60.0.1 port 37064 [preauth]
+Nov 04 22:17:57 srv sshd-session[4087]: Connection closed by authenticating user student 10.60.0.1 port 37078 [preauth]
+Nov 04 22:19:46 srv sshd-session[4089]: Connection closed by authenticating user student 10.60.0.1 port 37088 [preauth]
+Nov 04 22:21:54 srv sshd-session[4106]: Connection closed by authenticating user student 10.60.0.1 port 60906 [preauth]
+Nov 04 22:21:54 srv sshd-session[4108]: Connection closed by authenticating user student 10.60.0.1 port 60912 [preauth]
+Nov 04 22:22:14 srv sshd-session[4110]: Accepted password for student from 10.60.0.1 port 60474 ssh2
+Nov 04 22:22:14 srv sshd-session[4110]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 04 22:22:14 srv sshd-session[4110]: pam_unix(sshd:session): session closed for user student
+Nov 04 22:24:00 srv sshd-session[4130]: Accepted publickey for student from 10.60.0.1 port 46978 ssh2: ED25519 SHA256:e4WhIrmtE+/6bw/H6YnC7OZ6tlurEeolJIPa8wSPKFs
+Nov 04 22:24:00 srv sshd-session[4130]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 04 22:24:00 srv sshd-session[4130]: pam_unix(sshd:session): session closed for user student
+Nov 04 22:26:36 srv sshd-session[4144]: Accepted publickey for student from 10.60.0.1 port 46952 ssh2: ED25519 SHA256:e4WhIrmtE+/6bw/H6YnC7OZ6tlurEeolJIPa8wSPKFs
+Nov 04 22:26:36 srv sshd-session[4144]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 04 22:29:10 srv sshd-session[4217]: Accepted publickey for student from 10.60.0.1 port 56984 ssh2: ED25519 SHA256:e4WhIrmtE+/6bw/H6YnC7OZ6tlurEeolJIPa8wSPKFs
+Nov 04 22:29:10 srv sshd-session[4217]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 04 22:46:20 srv sshd-session[4340]: Accepted publickey for student from 10.60.0.1 port 34144 ssh2: ED25519 SHA256:e4WhIrmtE+/6bw/H6YnC7OZ6tlurEeolJIPa8wSPKFs
+Nov 04 22:46:20 srv sshd-session[4340]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 04 23:15:14 srv systemd[1]: Reloading ssh.service - OpenBSD Secure Shell server...
+Nov 04 23:15:14 srv sshd[3284]: Received SIGHUP; restarting.
+Nov 04 23:15:14 srv systemd[1]: Reloaded ssh.service - OpenBSD Secure Shell server.
+Nov 04 23:15:14 srv sshd[3284]: Server listening on 0.0.0.0 port 22.
+Nov 04 23:15:14 srv sshd[3284]: Server listening on :: port 22.
+Nov 04 23:22:11 srv sshd-session[4555]: Accepted publickey for student from 10.60.0.1 port 44224 ssh2: ED25519 SHA256:e4WhIrmtE+/6bw/H6YnC7OZ6tlurEeolJIPa8wSPKFs
+Nov 04 23:22:11 srv sshd-session[4555]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 04 23:32:49 srv sshd-session[4646]: Connection closed by authenticating user student 10.60.0.1 port 52526 [preauth]
+Nov 04 23:37:33 srv sshd-session[4652]: Connection closed by authenticating user root 10.60.0.1 port 33692 [preauth]
+Nov 04 23:42:39 srv sshd-session[4657]: Accepted publickey for student from 10.60.0.1 port 44078 ssh2: ED25519 SHA256:e4WhIrmtE+/6bw/H6YnC7OZ6tlurEeolJIPa8wSPKFs
+Nov 04 23:42:39 srv sshd-session[4657]: pam_unix(sshd:session): session opened for user student(uid=1000) by student(uid=0)
+Nov 04 23:42:39 srv sshd-session[4657]: pam_unix(sshd:session): session closed for user student

@@ -1,0 +1,4 @@
+student@10.60.0.10: Permission denied (publickey).
+exit_code=255
+root@10.60.0.10: Permission denied (publickey).
+root_exit_code=255
